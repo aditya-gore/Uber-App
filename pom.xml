@@ -12,7 +12,7 @@
 	<artifactId>uber</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>uberApp</name>
-	<description>Uber project un Spring Boot</description>
+	<description>Uber project in Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -53,6 +53,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-spatial -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-spatial</artifactId>
+			<version>6.5.3.Final</version>
 		</dependency>
 	</dependencies>
 
